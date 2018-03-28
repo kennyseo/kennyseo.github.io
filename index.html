@@ -16,9 +16,7 @@
 	<link href="css/owl-carousel/owl.carousel.css" rel="stylesheet" media="all">
 	<link href="css/owl-carousel/owl.theme.css" rel="stylesheet" media="all">
 	<link href="css/magnific-popup.css" type="text/css" rel="stylesheet" media="all" />
-	<link href="css/font.css" rel="stylesheet" type="text/css" media="all">
-	<link href="https://kennyseo.github.io/css/fontello.css" rel="stylesheet" type="text/css">
-	<link href="css/base.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font.css" rel="stylesheet" type="text/css" media="all"><link href="css/base.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
 	<!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="css/ie9.css" /> <![endif]-->
 
@@ -35,76 +33,54 @@
 	</div>
 	<!-- End preloader-->
 	<!--Wrapper-->
-	<div id="wrapper" class="margLTop margLBottom">
+	<div id="wrapper" class="margLBottom">
 		<!--Container-->
+    <div class="header-blue">
+        <nav class="navbar navbar-default navigation-clean-search">
+            <div class="container">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Company Name</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active" role="presentation"><a href="#">Link</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a href="#">First Item</a></li>
+                                <li role="presentation"><a href="#">Second Item</a></li>
+                                <li role="presentation"><a href="#">Third Item</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left" target="_self">
+                        <div class="form-group">
+                            <label class="control-label" for="search-field"><i class="glyphicon glyphicon-search"></i></label>
+                            <input class="form-control search-field" type="search" name="search" id="search-field">
+                        </div>
+                    </form>
+                    <p class="navbar-text navbar-right"><a class="navbar-link login" href="#">Log In</a> <a class="btn btn-default action-button" role="button" href="#">Sign Up</a></p>
+                </div>
+            </div>
+        </nav>
+        <div class="container hero">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0">
+                    <h1>The revolution is here.</h1>
+                    <p>Mauris egestas tellus non ex condimentum, ac ullamcorper sapien dictum. Nam consequat neque quis sapien viverra convallis. In non tempus lorem. </p>
+                    <button class="btn btn-default btn-lg action-button" type="button">Learn More</button>
+                </div>
+                <div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-1 hidden-xs hidden-sm phone-holder">
+                    <div class="iphone-mockup"><img src="images/iphone.svg" class="device">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 		<div class="container">
-			<div class="row ">
-				<!--Left content-->
-				<div class="col-md-3 nopr left-content">
-					<!--Header-->
-					<header id="header">
-						<!--Main header-->
-						<div class="main-header">
-							<!--Profile image-->
-							<figure class="img-profile">
-								<img src="img/profile.jpg" alt="" />
-							</figure>
-							<!--End profile image-->
-							<!--Main navigation-->
-							<nav id="main-nav" class="main-nav clearfix tabbed">
-								<ul>
-									<li>
-										<a href="./index.html">
-											<i class="icon-user"></i>개요</a>
-									</li>
-									<li>
-										<a href="portfolio.html">
-											<i class="icon-camera"></i>포트폴리오</a>
-									</li>
-									<li>
-										<a href="https://juneyoung-kang.github.io/blog/" target="_blank">
-											<i class="icon-chat"></i>블로그</a>
-									</li>
-									<li>
-										<a href="./index.html#contact">
-											<i class="icon-phone"></i>연락처</a>
-									</li>
-								</ul>
-							</nav>
-							<!--End main navigation-->
-						</div>
-						<!--End main header-->
-						<div class="bottom-header bgWhite ofsTSmall ofsBSmall tCenter">
-							<ul class="social">
-								<li>
-									<a href="https://facebook.com/develophics" target="_blank">
-										<i class="icon-facebook"></i>
-									</a>
-								</li>
-								<li>
-									<a href="https://twitter.com/juneyoung_kang" target="_blank">
-										<i class="icon-twitter"></i>
-									</a>
-								</li>
-								<li>
-									<a href="https://instagram.com/juneyoung_kang" target="_blank">
-										<i class="icon-instagram"></i>
-									</a>
-								</li>
-								<li>
-									<a href="https://github.com/juneyoung-kang" target="_blank">
-										<i class="icon-github"></i>
-									</a>
-								</li>
-							</ul>
-							<p>&copy; 2018 Juneyoung Kang.</p>
-						</div>
-					</header>
-					<!--End header-->
-				</div>
-				<!--End left content-->
+			<div class="row">
 				<!--Right content-->
-				<div class="col-md-9 right-content">
+				<div class="col-md-12">
 					<!--About Tab-->
 					<section id="about" class="bgWhite ofsInBottom">
 						<!--About -->
@@ -776,6 +752,7 @@
 					<!--End contact tab-->
 				</div>
 				<!--End right content-->
+        <p class="tCenter">&copy; 2018 Kenny Seo</p>
 			</div>
 			<!--End row-->
 		</div>
@@ -793,6 +770,9 @@
 	<script src="js/placeholders.min.js" type="text/javascript"></script>
 	<script src="js/script.js" type="text/javascript"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 	<script>
 		(function ($) {
 				"use strict";
