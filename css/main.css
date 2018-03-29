@@ -129,7 +129,12 @@
 
 
 
-/*Header*/
+/* Header Starts */
+.navbar-brand {
+  margin-top: -11px;
+}
+
+
 .header-blue{
   background:linear-gradient(135deg, #172a74, #21a9af);
   background-color:#184e8e;
@@ -402,7 +407,7 @@
   transform:rotate(-19deg);
   opacity:0.2;
 }
-
+/* Header Ends */
 
 
 .img-profile{
@@ -430,7 +435,7 @@
 .img-profile .name-profile span{
 	color:#ffffff;
 	opacity:.95;
-	font-family: "Swagger",Arial,sans-serif;
+	font-family: "Hanna",Arial,sans-serif;
 	padding: 0 15px 0px 30px;
 	font-size:11px;
 	display:block;
@@ -683,9 +688,9 @@
 
 
 
-.vc{
 
-	 display: -webkit-flex;
+.vc{
+	display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
@@ -698,23 +703,21 @@
 
 }
 
-
-.progress {
-    display: block;
-    height: 16px;
-    margin: 8px 0 14px;
-    position: relative;
-    width: 100%;
-	overflow: visible;
-	border-radius: 50px;
-	-moz-border-radius:50px;
-	-webkit-border-radius :50px;
-	-ms-border-radius:50px;
-	-o-border-radius: 50px;
-	background: #ffffff; /* Old browsers */
-
+.rotate {
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  left: -15px;
+  padding: 5px 25px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
 }
 
+.design {
+  border: 1px solid #333;
+}
 
 .skill .skills-list li:last-child .progress{
 	margin-bottom:0;
@@ -839,7 +842,7 @@
 .timeline:after{
 	background: #ffffff;
 	border:3px solid #efefef;
-	font-family: 'Swagger';
+	font-family: 'Hanna', sans-serif;;
 	top:0;
 	left:-5px;
 	width:50px;
@@ -1529,14 +1532,14 @@ span.meta-date{
 	-webkit-border-radius :10px;
 	-ms-border-radius:10px;
 	-o-border-radius: 10px;
-	font-family:"Swagger",Arial,sans-serif;
+	font-family:"Hanna",Arial,sans-serif;
 }
 
 
 .contact-form textarea, .reply-form textarea {
     color: #666666;
     width: 100%;
-	font-family:"Swagger",Arial,sans-serif;
+	font-family:"Hanna",Arial,sans-serif;
 }
 
 
