@@ -260,9 +260,9 @@ header .iphone-mockup img.device{
 header .iphone-mockup .screen{
   position:absolute;
   width:88%;
-  height:77%;
-  top:12%;
-  border-radius:2px;
+  height:95%;
+  top:2.5%;
+  border-radius:25px;
   left:6%;
   border:1px solid #444;
   background-color:#aaa;
