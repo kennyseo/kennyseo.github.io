@@ -96,7 +96,8 @@ iframe{width:100%;frameborder:0;display:inline-block;}
     //width: 100%;
     //max-width: 1240px;
 		background: #fff;
-		font: 14px/22px "Hanna",Arial,sans-serif;
+		font: 28px "swagger",Arial,sans-serif;
+    line-height: 1.5;
 		color: #999999;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -118,9 +119,17 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 
 
 	p{
-		line-height:22px;
+		line-height:1.3;
 	}
 
+    .about .content a {
+      color: #333;
+      border-bottom: 2px solid #28a6ae;
+    }
+    .about .content a:hover {
+      color: #333;
+      border-bottom: 5px solid #28a6ae;
+    }
 
 	.main-title{
 		border-bottom:1px solid #efefef;
@@ -185,7 +194,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 
 
 	.main-title h1{
-		font-size:15px;
+		font-size:46px;
 	}
 
 
@@ -316,7 +325,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 	  position: absolute;
 	  left: 15px;
 	  padding: 0 1px;
-	  font-family: 'Hanna', sans-serif;
+	  font-family: 'swagger', sans-serif;
 	  font-size:15px;
 	}
 
@@ -381,36 +390,36 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 
 
 	.main-nav ul li a, .info ul.info-list li .inf, .exp .hgroup h4, .block.service .det h3, .block-quote .block-profile, .block-quote .block-profile span, .item a .desc h3, .address-info p, .search-form input[type="text"], .author a, .but  {
-    font-family: 'Hanna',Arial,sans-serif;
+    font-family: 'swagger',Arial,sans-serif;
 	}
 
 
 
 	.about .profile h1, .main-title h1{
-		font-family: 'Hanna',Arial,sans-serif;
+		font-family: 'swagger',Arial,sans-serif;
 	}
 
 
 
 	.contact-info li , .skills-list h4, .skill .title, .filter li, .comments .reply-btn a,strong, .skill .title
 	{
-		font-family: 'Hanna',Arial,sans-serif;
+		font-family: 'swagger',Arial,sans-serif;
 
 	}
 
 
 .exp .hgroup h6{
-		font-family: 'Hanna',Arial,sans-serif;
+		font-family: 'swagger',Arial,sans-serif;
 	}
 
 
 	.about .profile h3, .block-single h1.large-title, .post-title h1, .post-title a, span.meta-date{
-		font-family: 'Hanna',Arial,sans-serif;
+		font-family: 'swagger',Arial,sans-serif;
 	}
 
 
 	.block-quote blockquote, .item a .desc h3 span {
-		font-family: 'Hanna',Arial,sans-serif;
+		font-family: 'swagger',Arial,sans-serif;
 	}
 
 

@@ -32,6 +32,7 @@ header .navbar{
   border-radius:0;
   box-shadow:none;
   border:none;
+  
 }
 
 @media (max-width:767px) {
