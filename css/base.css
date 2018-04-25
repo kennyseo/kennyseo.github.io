@@ -217,7 +217,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 
 
 	.divider-m  .zigzag.medium, .divider .zigzag.large{
-		stroke: #cd5353;
+		stroke: #28a6ae;
 		stroke-width: 4.3;
 	}
 
@@ -269,7 +269,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 		padding: 8px 25px;
 		color:#ffffff;
 		text-transform:uppercase;
-		font-size:12px;
+		font-size:18px;
 		display:inline-block;
 	}
 
@@ -299,11 +299,11 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 	}
 
 	.but.opc-2{
-		background:#cd5353;
+		background:#28a6ae;
 	}
 
 	.but.opc-3{
-		background:#cd5353;
+		background:#28a6ae;
 	}
 
 
