@@ -44,6 +44,20 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 
+  .footer p {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .footer a {
+    color: #333;
+    border-bottom: 1px solid #28a6ae;
+  }
+  .footer a:hover {
+    color: #333;
+    border-bottom: 3px solid #28a6ae;
+  }
+
+
 	ol, ul {
 		list-style: none; }
 	blockquote, q {
